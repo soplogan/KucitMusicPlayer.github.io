@@ -1,2 +1,2 @@
-# KucitMusicPlayer.github.io
+#kucit.github.io
 KucitMusicPlayer
