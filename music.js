@@ -38,6 +38,15 @@
             title: "STAY",
             artist: "Justin Bieber",
         },
+        {
+
+            name: "Grv-6",
+
+            title: "TUMHIHO",
+
+            artist: "Kucit Biber",
+
+        },           
     ]
 
     let isPlaying = false;
