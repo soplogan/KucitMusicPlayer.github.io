@@ -46,7 +46,16 @@
 
             artist: "Kucit Biber",
 
-        },           
+        },      
+        {
+
+            name: "Grv-7",
+
+            title: "REGGAE",
+
+            artist: "Kakek zink",
+
+        },  
     ]
 
     let isPlaying = false;
