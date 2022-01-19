@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="theme-color" content="#49899D">
+    <link rel="shortcut icon" href="./image/image.png" type="image/x-icon">
+    <meta name="description" content="Music Player 🎶">
+    <title>Music Player 🎶</title>
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://rghvgrv.github.io/MusicPlayer/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Music Player 🎶">
+    <meta property="og:description" content="A Music Player 🎶 Website">
+    <meta property="og:image" content="https://i.ibb.co/42FVH9L/Screenshot-2021-09-26-190342.png"
+        alt="profile-pic-1">
+
+    <!-- Twitter Meta Tags -->
+    <meta name=" twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="https://github.com/rghvgrv">
+    <meta property="twitter:url" content="https://rghvgrv.github.io/MusicPlayer/">
+    <meta name="twitter:title" content="Music Player 🎶">
+    <meta name="twitter:description" content="A Music Player 🎶 Website">
+    <meta name="twitter:image" content="https://i.ibb.co/42FVH9L/Screenshot-2021-09-26-190342.png"
+        alt="profile-pic-1">
+</head>
+</head>
+
+<body>
+    <div class="main_div">
+        <button onclick="darkMode" id='boton'>
+            Dark Mode
+        </button>
+        <div class="music_container">
+            <h2 id="title">
+                FADED
+            </h2>
+            <h3 id="artist">
+                ALAN WALKER
+            </h3>
+            <div class="img_container">
+                <img src="./image/Grv-4.png" alt="" srcset="">
+            </div>
+            <audio src="./music/Grv-4.mp3"></audio>
+
+            <!-- Progress Bar -->
+            <div class="progressbar_container" id="progress_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">
+                        0:00
+                    </div>
+                    <div id="duration">
+                        3:32
+                    </div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+
+            <!-- controls -->
+            <div class="music_controls">
+                <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+                <i class="fa-solid fa-play main_button" id="play" title="Play"></i>
+                <i class="fa-solid fa-forward" id="next" title="Next"></i>
+            </div>
+
+        </div>
+    </div>
+    <script src="music.js"></script>r
+</body>
+
+</html>
